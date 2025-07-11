@@ -32,7 +32,7 @@ nav {
   align-items: center;
   margin: 0 150px;
 }
-nav h3 {
+.nav-title {
   font-size: 34px;
   font-weight: bolder;
 }
@@ -46,4 +46,25 @@ nav h3 {
 .banner-text {
   font-size: 65px;
   font-weight: bold;
+}
+
+/* action styles */
+.action-section {
+  display: flex;
+  align-items: center;
+  gap: 220px;
+  margin: 116px 150px;
+}
+.action-containt {
+}
+.action-title {
+  font-size: 42px;
+  font-weight: bold;
+}
+.action-description {
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+}
+.action-image {
+  border-radius: 20px;
 }
