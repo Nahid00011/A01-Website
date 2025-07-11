@@ -18,6 +18,7 @@
   font-size: 16px;
   font-weight: bold;
   padding: 12px 36px;
+  cursor: pointer;
 }
 
 /* header styles */
@@ -67,4 +68,30 @@ nav {
 }
 .action-image {
   border-radius: 20px;
+}
+
+/* Productive Users Section Styles */
+.users {
+  padding: 50px 142px;
+  background-color: rgba(78, 71, 255, 0.1);
+  margin: 116px 150px;
+  border-radius: 20px;
+  text-align: center;
+}
+.productive-users {
+  display: flex;
+  justify-content: space-around;
+}
+.productive-users-title {
+  font-size: 38px;
+  font-weight: bold;
+}
+.numbers {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4e47ff;
+}
+.sub-title {
+  font-size: 20;
+  color: rgba(0, 0, 0, 0.5);
 }
