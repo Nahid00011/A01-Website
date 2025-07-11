@@ -1,0 +1,30 @@
+/* shared styles */
+.primary-color {
+  color: #4e47ff;
+}
+.btn-primary {
+  background-color: #4e47ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 36px;
+}
+
+/* header styles */
+.header {
+  background-image: url("../Assets/Hero-bg.png");
+}
+
+/* nav styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 150px;
+}
+nav h3 {
+  font-size: 34px;
+  font-weight: bolder;
+}
