@@ -1,3 +1,11 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
 /* shared styles */
 .primary-color {
   color: #4e47ff;
@@ -27,4 +35,15 @@ nav {
 nav h3 {
   font-size: 34px;
   font-weight: bolder;
+}
+
+/* banner styles */
+.banner {
+  text-align: center;
+  justify-content: center;
+  padding: 152px 267.5px;
+}
+.banner-text {
+  font-size: 65px;
+  font-weight: bold;
 }
