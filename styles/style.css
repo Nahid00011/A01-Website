@@ -103,6 +103,8 @@ nav {
 
 .get-in-touch {
   background-color: rgba(214, 221, 237, 1);
+  padding-top: 71px;
+  padding-bottom: 71px;
 }
 .message-section {
   display: flex;
@@ -135,4 +137,28 @@ label {
 input {
   /* padding-top: 0; */
   /* padding-bottom: 19px; */
+}
+
+/* footer styles */
+
+.footer {
+  text-align: center;
+  align-items: center;
+  margin: 104px 455px;
+}
+.footer-title {
+  font-size: 100px;
+  font-weight: 900px;
+  margin-bottom: 8px;
+}
+.footer-description {
+  color: rgba(137, 135, 161, 1);
+}
+.navigation-items {
+  display: flex;
+  justify-content: space-around;
+}
+.navigation-item a {
+  text-decoration: none;
+  color: rgba(137, 135, 161, 1);
 }
