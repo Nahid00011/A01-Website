@@ -20,6 +20,9 @@
   padding: 12px 36px;
   cursor: pointer;
 }
+button:hover {
+  background: orange;
+}
 
 /* header styles */
 .header {
@@ -94,4 +97,42 @@ nav {
 .sub-title {
   font-size: 20;
   color: rgba(0, 0, 0, 0.5);
+}
+
+/* let's get in touch styles */
+
+.get-in-touch {
+  background-color: rgba(214, 221, 237, 1);
+}
+.message-section {
+  display: flex;
+  gap: 115px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 116px 150px;
+}
+.message-section-title {
+  font-size: 97px;
+  font-weight: bold;
+}
+.form {
+  /* margin: 497px 490px; */
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  display: block;
+  border: none;
+  color: white;
+  /* margin-right: 24px; */
+}
+label {
+  /* margin-bottom: 5px; */
+}
+input {
+  /* padding-top: 0; */
+  /* padding-bottom: 19px; */
 }
